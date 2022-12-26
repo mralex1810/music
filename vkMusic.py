@@ -10,7 +10,6 @@ from vk_api.audio import VkAudio
 
 from process_audio import process_audio
 
-
 class VkMusicGetter:
     def __init__(self, login, password):
         self.vkSession = vk_api.VkApi(login, password)
